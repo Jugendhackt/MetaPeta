@@ -4,8 +4,12 @@ html{
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: #455A64;
+    background-color: #77c9d4;
     color: white;
+}
+
+a {
+    color: #015249;
 }
 
 a, a:hover, a:visited {
@@ -27,6 +31,11 @@ p {
     color: white;
 }
 
+.content p {
+    text-align: justify;
+    hyphens: auto;
+}
+
 .content h2 {
     margin-top: 4em;
 }
@@ -38,12 +47,20 @@ p {
     top: 0;
     width: 100%;
     height: 100px;
-    background-color: white;
-    color: black;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#57bc90+0,57bc90+50,092415+100 */
+    background: #57bc90; /* Old browsers */
+    background: -moz-linear-gradient(left, #57bc90 0%, #57bc90 50%, #092415 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #57bc90 0%,#57bc90 50%,#092415 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #57bc90 0%,#57bc90 50%,#092415 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#57bc90', endColorstr='#092415',GradientType=1 ); /* IE6-9 */
     margin-bottom: 100px;
     padding-left: 10px;
     display: flex;
     align-items: center;
+}
+
+.nav h1 {
+    color: white;
 }
 
 .btn-delete, .btn-reset {
@@ -52,8 +69,9 @@ p {
     transition: .2s all ease-in-out;
     padding: 10px;
     margin: 10px;
-    color: rgb(180, 6, 23);
+    color: white;
     cursor: pointer;
+    visibility: hidden;
 }
 
 .btn-delete:hover, .btn-reset:hover {
