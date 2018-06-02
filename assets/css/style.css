@@ -13,6 +13,7 @@ html{
     padding: 10px;
     margin: 10px;
     color: rgb(180, 6, 23);
+    cursor: pointer;
 }
 
 .btn-delete:hover {
@@ -27,6 +28,7 @@ html{
     padding: 10px;
     margin: 10px;
     color: rgb(36, 30, 68);
+    cursor: pointer;
 }
 
 .btn-upload:hover {
