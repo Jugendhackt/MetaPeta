@@ -18,8 +18,6 @@ function al(e) {
     }
 
     e.preventDefault();
-
-
 }
 
 function loadImage(file, name) {
@@ -34,14 +32,15 @@ function imagetocanvas(img, w, h, name) {
     c.width = w;
     c.height = h;
     cx.drawImage(img, 0, 0, w, h);
-    var dlname = name.replace(/\.([^\.]+)$/, '-cleaned.jpg');
+    var dlname = name.replace(/\.([^\.]+)$/, '-bereinigt.jpg');
 
 
 
     // button delete raussuchen
     var deleteButton = document.querySelector('.btn-delete');
     // href von link mit bildurl versehen
-    deleteButton.href=c.toDataURL('image/jpeg', 0.9);
+    deleteButton.href = c.toDataURL('image/jpeg', 0.9);
+    deleteButton.download = dlname;
 }
 
 // wenn file änderungen soll al() gemacht werden
