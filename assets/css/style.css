@@ -4,6 +4,8 @@ html{
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    background-color: #455A64;
+    color: white;
 }
 
 a, a:hover, a:visited {
@@ -22,6 +24,25 @@ p {
     font-size: 22px;
 }
 
+.content h2 {
+    margin-top: 4em;
+}
+
+.nav {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    color: black;
+    margin-bottom: 100px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
 .btn-delete, .btn-reset {
     border: 1px solid rgb(180, 6, 23);
     border-radius: 12px;
@@ -35,6 +56,7 @@ p {
 .btn-delete:hover, .btn-reset:hover {
     background-color: rgb(180, 6, 23);
     color: white;
+    box-shadow: 0px 0px 32px 0px rgba(0,0,0,0.75);
 }
 
 #getfile {
