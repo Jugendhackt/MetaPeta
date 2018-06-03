@@ -25,7 +25,7 @@ Für weitere Informationen kannst du beispielsweise diesen Link verwenden.
 ### Danke an 
 -unsere Mentoren: Matthias (https://github.com/Panzki) und Ronald (https://github.com/ronald).
 			
--Entwickler mit ähnlichen Ideen: [Profil "bertvanderwals"] (https://github.com/exif-js/exif-js)
+-Entwickler mit ähnlichen Ideen: [Profil "bertvanderwals"](https://github.com/exif-js/exif-js)
 
 ### Zukunftsaussichten
 Wir werden versuchen, dass mehr Meta-Daten beim Hochladen des Bildes angezeigt werden, damit man sieht, dass diese auch wirklich gelöscht werden.
