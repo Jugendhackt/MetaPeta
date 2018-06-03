@@ -49,6 +49,7 @@ function imagetocanvas(img, w, h, name) {
 
         var make = EXIF.getTag(this, "Make");
         var model = EXIF.getTag(this, "DateTimeOriginal");
+        var smartphone = EXIF.getTag(this, "Model");
         var imagewidth = EXIF.getTag(this, "PixelXDimension");
         var imageheight = EXIF.getTag(this, "PixelYDimension");
         var allMetaDataSpan = document.getElementById("allMetaDataSpan");
@@ -76,14 +77,21 @@ function imagetocanvas(img, w, h, name) {
         var cell33 = row3.insertCell(1);
 
         cell3.innerHTML = "Breite:";
-        cell33.innerHTML = imagewidth;
+        cell33.innerHTML = imagewidth+" Pixel";
 
         var row4 = table.insertRow(3);
         var cell4 = row4.insertCell(0);
         var cell44 = row4.insertCell(1);
 
         cell4.innerHTML = "Höhe:";
-        cell44.innerHTML = imageheight;
+        cell44.innerHTML = imageheight+" Pixel";
+
+        var row5 = table.insertRow(4);
+        var cell5 = row5.insertCell(0);
+        var cell55 = row5.insertCell(1);
+
+        cell5.innerHTML = "Handymodell:";
+        cell55.innerHTML = smartphone;
 
 
     });
