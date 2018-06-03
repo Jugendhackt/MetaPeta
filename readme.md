@@ -10,7 +10,7 @@ Daher entstand diese App, um die Privatsphäre der Nutzer zu verbessern.
 
 ### Links
 Hier findest du Links zu unserem Github-Projekt und zur Website von Jugend hackt.
-* [Zum Github Profil](https://jugendhackt.github.io/MetaPeta/)
+* [Zur Web-App](https://jugendhackt.github.io/MetaPeta/)
 * [Zur Jugend hackt Projekt-Seite](https://jugendhackt.org/projekte/)
 
 Für weitere Informationen kannst du beispielsweise diesen Link verwenden.
@@ -34,3 +34,5 @@ Außerdem soll es auch eine Möglichkeit geben, Meta-Daten zu manipulieren, also
 
 ### Ich habe Verbesserungsvorschläge, was kann ich tun?
 Wenn du unsere App verbessern kannst, würden wir uns freuen, wenn du unser GitHub Projekt nutzt und deine Änderungen hochlädst. :)
+
+
