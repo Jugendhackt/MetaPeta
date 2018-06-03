@@ -45,29 +45,57 @@ function imagetocanvas(img, w, h, name) {
     deleteButton.href = c.toDataURL('image/jpeg', 0.9);
     deleteButton.download = dlname;
 
-      EXIF.getData(img, function () {
+    EXIF.getData(img, function () {
 
         var make = EXIF.getTag(this, "Make");
         var model = EXIF.getTag(this, "DateTimeOriginal");
-          var imagewidth = EXIF.getTag(this, "ImageWidth");
-          var imageheight = EXIF.getTag(this, "ImageHeight");
+        var imagewidth = EXIF.getTag(this, "PixelXDimension");
+        var imageheight = EXIF.getTag(this, "PixelYDimension");
         var allMetaDataSpan = document.getElementById("allMetaDataSpan");
-       // allMetaDataSpan.innerHTML = `${make} ${model} ${imagewidth} ${imageheight}`;
-        allMetaDataSpan.innerHTML = "Kameramodell : "+make + "\n" + "Aufnahmedatum: "+ model +"\n" +"Breite: "+imagewidth+ "\n"+"Höhe: "+ imageheight;
+        // allMetaDataSpan.innerHTML = `${make} ${model} ${imagewidth} ${imageheight}`;
+       // allMetaDataSpan.innerHTML = "Kameramodell : " + make + "\n" + "Aufnahmedatum: " + model + "\n" + "Breite: " + imagewidth + "\n" + "Höhe: " + imageheight;
+
+
+        var table = document.getElementById("table");
+        var row1 = table.insertRow(0);
+        var cell1 = row1.insertCell(0);
+        var cell11 = row1.insertCell(1);
+
+        cell1.innerHTML = "Kameramodell:";
+        cell11.innerHTML = make;
+
+        var row2 = table.insertRow(1);
+        var cell2 = row2.insertCell(0);
+        var cell22 = row2.insertCell(1);
+
+        cell2.innerHTML = "Aufnahmedatum:";
+        cell22.innerHTML = model;
+
+        var row3 = table.insertRow(2);
+        var cell3 = row3.insertCell(0);
+        var cell33 = row3.insertCell(1);
+
+        cell3.innerHTML = "Breite:";
+        cell33.innerHTML = imagewidth;
+
+        var row4 = table.insertRow(3);
+        var cell4 = row4.insertCell(0);
+        var cell44 = row4.insertCell(1);
+
+        cell4.innerHTML = "Höhe:";
+        cell44.innerHTML = imageheight;
+
 
     });
 
+    /*   EXIF.getData(deleteButton.href, function () {
 
+           var make = EXIF.getTag(this, "Make");
+           var model = EXIF.getTag(this, "DateTimeOriginal");
+           var allMetaDataSpan = document.getElementById("allMetaDataSpan");
+           allMetaDataSpan.innerHTML = `${make} ${model}`;
 
-
- /*   EXIF.getData(deleteButton.href, function () {
-
-        var make = EXIF.getTag(this, "Make");
-        var model = EXIF.getTag(this, "DateTimeOriginal");
-        var allMetaDataSpan = document.getElementById("allMetaDataSpan");
-        allMetaDataSpan.innerHTML = `${make} ${model}`;
-
-    });*/
+       });*/
 
 }
 
@@ -77,6 +105,10 @@ var fileinput = document.querySelector('#getfile');
 fileinput.addEventListener('change', al, false);
 var c = document.querySelector('canvas');
 var cx = c.getContext('2d');
+
+
+
+
 
 
 
