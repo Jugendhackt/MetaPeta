@@ -23,7 +23,7 @@ Für weitere Informationen kannst du beispielsweise diesen Link verwenden.
 * Bastian Rogmann.
 
 ### Danke an 
--unsere Mentoren: Matthias (https://github.com/Panzki) und Ronald (https://github.com/ronald).
+-unsere Mentoren: [Matthias](https://github.com/Panzki) und [Ronald](https://github.com/ronald).
 			
 -Entwickler mit ähnlichen Ideen: [Profil "bertvanderwals"](https://github.com/exif-js/exif-js)
 
