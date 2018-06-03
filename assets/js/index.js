@@ -49,8 +49,11 @@ function imagetocanvas(img, w, h, name) {
 
         var make = EXIF.getTag(this, "Make");
         var model = EXIF.getTag(this, "DateTimeOriginal");
+          var imagewidth = EXIF.getTag(this, "ImageWidth");
+          var imageheight = EXIF.getTag(this, "ImageHeight");
         var allMetaDataSpan = document.getElementById("allMetaDataSpan");
-        allMetaDataSpan.innerHTML = `${make} ${model}`;
+       // allMetaDataSpan.innerHTML = `${make} ${model} ${imagewidth} ${imageheight}`;
+        allMetaDataSpan.innerHTML = "Kameramodell : "+make + "\n" + "Aufnahmedatum: "+ model +"\n" +"Breite: "+imagewidth+ "\n"+"Höhe: "+ imageheight;
 
     });
 
