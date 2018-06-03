@@ -10,8 +10,8 @@ Daher entstand diese App, um die Privatsphäre der Nutzer zu verbessern.
 
 ### Links
 Hier findest du Links zu unserem Github-Projekt und zur Website von Jugend hackt.
-* [zum Github Profil](https://jugendhackt.github.io/MetaPeta/)
-* [zum Jugendhackt Profil](https://jugendhackt.org/projekte/)
+* [Zum Github Profil](https://jugendhackt.github.io/MetaPeta/)
+* [Zur Jugend hackt Projekt-Seite](https://jugendhackt.org/projekte/)
 
 Für weitere Informationen kannst du beispielsweise diesen Link verwenden.
 * [wikipedia](https://de.wikipedia.org/wiki/Metadaten)
@@ -25,7 +25,7 @@ Für weitere Informationen kannst du beispielsweise diesen Link verwenden.
 ### Danke an 
 -unsere Mentoren: Matthias (https://github.com/Panzki) und Ronald (https://github.com/ronald).
 			
--Entwickler mit ähnlichen Ideen: [bartvanderwals Profil] (https://github.com/exif-js/exif-js)
+-Entwickler mit ähnlichen Ideen: [Profil "bertvanderwals"] (https://github.com/exif-js/exif-js)
 
 ### Zukunftsaussichten
 Wir werden versuchen, dass mehr Meta-Daten beim Hochladen des Bildes angezeigt werden, damit man sieht, dass diese auch wirklich gelöscht werden.
