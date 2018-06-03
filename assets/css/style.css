@@ -57,10 +57,17 @@ p {
     padding-left: 10px;
     display: flex;
     align-items: center;
+    z-index: 1;
 }
 
 .nav h1 {
     color: white;
+}
+
+.nav a {
+    display: flex;
+    /* justify-content: flex-end; */
+    flex-direction: row-reverse;
 }
 
 .btn-delete, .btn-reset {
