@@ -11,7 +11,6 @@ function al(e) {
     var resetButton = document.querySelector('.btn-reset');
     resetButton.style.visibility = "visible";
 
-
     if (objURL) {
         loadImage(url.createObjectURL(file), file.name);
     } else {
@@ -46,12 +45,7 @@ function imagetocanvas(img, w, h, name) {
     deleteButton.href = c.toDataURL('image/jpeg', 0.9);
     deleteButton.download = dlname;
 
-    //deleteButton.style.display =null;
-
-
-
-
-    EXIF.getData(deleteButton.href, function () {
+      EXIF.getData(img, function () {
 
         var make = EXIF.getTag(this, "Make");
         var model = EXIF.getTag(this, "DateTimeOriginal");
@@ -59,6 +53,18 @@ function imagetocanvas(img, w, h, name) {
         allMetaDataSpan.innerHTML = `${make} ${model}`;
 
     });
+
+
+
+
+ /*   EXIF.getData(deleteButton.href, function () {
+
+        var make = EXIF.getTag(this, "Make");
+        var model = EXIF.getTag(this, "DateTimeOriginal");
+        var allMetaDataSpan = document.getElementById("allMetaDataSpan");
+        allMetaDataSpan.innerHTML = `${make} ${model}`;
+
+    });*/
 
 }
 
