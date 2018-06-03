@@ -17,10 +17,10 @@ Für weitere Informationen kannst du beispielsweise diesen Link verwenden.
 * [wikipedia](https://de.wikipedia.org/wiki/Metadaten)
 
 ### Team-Mitglieder
-* Ben-Jannik Ferch,
-* Janik Jüttner,
-* Henning Gilbert und
-* Bastian Rogmann.
+* Ben-Jannik,
+* Janik,
+* Henning,
+* Bastian.
 
 ### Danke an 
 -unsere Mentoren: [Matthias](https://github.com/Panzki) und [Ronald](https://github.com/ronald).
