@@ -14,7 +14,7 @@ Hier findest du Links zu unserem Github-Projekt und zur Website von Jugend hackt
 * [zum Jugendhackt Profil](https://jugendhackt.org/projekte/)
 
 Für weitere Informationen kannst du beispielsweise diesen Link verwenden.
-[wikipedia](https://de.wikipedia.org/wiki/Metadaten)
+* [wikipedia](https://de.wikipedia.org/wiki/Metadaten)
 
 ### Team-Mitglieder
 * Ben-Jannik Ferch,
@@ -23,7 +23,7 @@ Für weitere Informationen kannst du beispielsweise diesen Link verwenden.
 * Bastian Rogmann.
 
 ### Danke an 
--unsere Mentoren: Matthias (https://github.com/Panzki) und Ronald ().
+-unsere Mentoren: Matthias (https://github.com/Panzki) und Ronald (https://github.com/ronald).
 			
 -Entwickler mit ähnlichen Ideen: [bartvanderwals Profil] (https://github.com/exif-js/exif-js)
 
