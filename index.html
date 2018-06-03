@@ -6,17 +6,18 @@
     <title>MetaPeta</title>
     <link rel="icon" type="image/png" href="./assets/images/favicon.png">
     <link type="text/css" rel="stylesheet" href="./assets/css/style.css">
+    <script type="text/javascript" src="assets/js/exif.js"></script>
 
 </head>
 <body>
 <div class="content">
     <div class="nav">
-        <a href="https://github.com/Jugendhackt/MetaPeta"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
-        <a href="https://jugendhackt.org/projekte/"><img style="height: 5em; width: 5em; z-index: -1; padding-left: 1em;" src="assets/img/jugendhackt.png"> </a>
         <h1>MetaPeta</h1>
+        <a href="https://github.com/Jugendhackt/MetaPeta"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
+        <a href="https://jugendhackt.org/projekte/"><img style="position: absolute; top: 0; right: 0; border: 0; margin-right: 20em; height: 5em; width: 5em; z-index: -1" src="assets/img/jugendhackt.png"> </a>
     </div>
     <h2>Was sind eigentlich Meta-Daten und warum sollte man sie entfernen?</h2>
-    <p>Vereinfacht erklärt werden Meta-Daten an Fotos, Videos oder Audio-Dateien angehängt und mit diesen verschickt.
+    <p>Vereinfacht erklärt werden Meta-Daten an Fotos, Videos oder Audio-Dateien angehängt und mit diesen verschickt. 
     Es handelt sich dabei also um Zusatzdaten. Ein klassisches Beispiel dafür ist der Ort, an dem ein Foto entstanden ist.
     Die Dateien heißen "exif"-Dateien.
     Man sollte diese entfernen, um sozialen Netzwerken keinen zu großen Einblick in das Alltagsleben zu gestatten.
@@ -27,22 +28,23 @@
 
     <div id="app">
         <input id="getfile" class="btn" type="file" accept="image/*" />
-
+        
         <a class="btn-delete" title="Bereinigtes Bild herunterladen">
             Meta-Daten löschen
         </a>
-
+        
         <a class="btn-reset" title="Lädt die Seite neu" onclick="refreshPage()">
             Auswahl verwerfen
         </a>
-        <div class="result">
-            <div class="output">
-
-            </div>
-            <canvas></canvas>
+        <canvas></canvas>
+        <div class="output">
+           <!-- <img src="samples/bild.jpg" id="img2" /> -->
+            <pre id="allMetaDataSpan"></pre>
         </div>
     </div>
 </div>
+
+
 
 
 <script type="text/javascript">

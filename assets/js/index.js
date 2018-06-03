@@ -5,7 +5,11 @@ function al(e) {
     var url = window.URL || window.webkitURL;
     var objURL = url.createObjectURL || false;
 
+    var deleteButton = document.querySelector('.btn-delete');
+    deleteButton.style.visibility = "visible";
 
+    var resetButton = document.querySelector('.btn-reset');
+    resetButton.style.visibility = "visible";
 
     if (objURL) {
         loadImage(url.createObjectURL(file), file.name);
@@ -35,12 +39,33 @@ function imagetocanvas(img, w, h, name) {
     var dlname = name.replace(/\.([^\.]+)$/, '-bereinigt.jpg');
 
 
-
     // button delete raussuchen
     var deleteButton = document.querySelector('.btn-delete');
     // href von link mit bildurl versehen
     deleteButton.href = c.toDataURL('image/jpeg', 0.9);
     deleteButton.download = dlname;
+
+      EXIF.getData(img, function () {
+
+        var make = EXIF.getTag(this, "Make");
+        var model = EXIF.getTag(this, "DateTimeOriginal");
+        var allMetaDataSpan = document.getElementById("allMetaDataSpan");
+        allMetaDataSpan.innerHTML = `${make} ${model}`;
+
+    });
+
+
+
+
+ /*   EXIF.getData(deleteButton.href, function () {
+
+        var make = EXIF.getTag(this, "Make");
+        var model = EXIF.getTag(this, "DateTimeOriginal");
+        var allMetaDataSpan = document.getElementById("allMetaDataSpan");
+        allMetaDataSpan.innerHTML = `${make} ${model}`;
+
+    });*/
+
 }
 
 // wenn file änderungen soll al() gemacht werden
@@ -49,3 +74,10 @@ var fileinput = document.querySelector('#getfile');
 fileinput.addEventListener('change', al, false);
 var c = document.querySelector('canvas');
 var cx = c.getContext('2d');
+
+
+
+
+
+
+
