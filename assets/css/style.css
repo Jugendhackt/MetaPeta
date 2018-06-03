@@ -53,8 +53,7 @@ p {
     background: -webkit-linear-gradient(left, #57bc90 0%,#57bc90 50%,#092415 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to right, #57bc90 0%,#57bc90 50%,#092415 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#57bc90', endColorstr='#092415',GradientType=1 ); /* IE6-9 */
-    margin-bottom: 100px;
-    padding-left: 10px;
+    margin-bottom: 10em;
     display: flex;
     align-items: center;
     z-index: 1;
@@ -62,12 +61,7 @@ p {
 
 .nav h1 {
     color: white;
-}
-
-.nav a {
-    display: flex;
-    /* justify-content: flex-end; */
-    flex-direction: row-reverse;
+    padding-left: 17em;
 }
 
 .btn-delete, .btn-reset {
@@ -84,7 +78,7 @@ p {
 .btn-delete:hover, .btn-reset:hover {
     background-color: rgb(37, 100, 146);
     color: white;
-    box-shadow: 0px 0px 32px 0px rgba(0,0,0,0.75);
+    box-shadow: 0 0 32px 0 rgba(0,0,0,0.75);
 }
 
 #getfile {
@@ -110,4 +104,9 @@ canvas {
         margin-top: 40px;
         margin-bottom: 40px;
     }
+}
+
+.result {
+    margin-top: 1em;
+    border: 1px solid white;
 }
