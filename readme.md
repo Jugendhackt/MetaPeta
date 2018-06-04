@@ -14,7 +14,8 @@ Hier findest du Links zu unserem Github-Projekt und zur Website von Jugend hackt
 * [Zur Jugend hackt Projekt-Seite](https://jugendhackt.org/projekte/)
 
 Für weitere Informationen kannst du beispielsweise diesen Link verwenden.
-* [wikipedia](https://de.wikipedia.org/wiki/Metadaten)
+* [Wikipedia](https://de.wikipedia.org/wiki/Metadaten)
+* [Andreas Pfund](http://andreas-pfund.de/definition/metadaten/metadaten.php)
 
 ### Team-Mitglieder
 * Ben-Jannik,
@@ -23,9 +24,9 @@ Für weitere Informationen kannst du beispielsweise diesen Link verwenden.
 * Bastian.
 
 ### Danke an 
--unsere Mentoren: [Matthias](https://github.com/Panzki) und [Ronald](https://github.com/ronald).
+* unsere Mentoren: [Matthias](https://github.com/Panzki) und [Ronald](https://github.com/ronald).
 			
--Entwickler mit ähnlichen Ideen: [Profil "bertvanderwals"](https://github.com/exif-js/exif-js)
+* Entwickler mit ähnlichen Ideen: [Profil "bertvanderwals"](https://github.com/exif-js/exif-js)
 
 ### Zukunftsaussichten
 Wir werden versuchen, dass mehr Meta-Daten beim Hochladen des Bildes angezeigt werden, damit man sieht, dass diese auch wirklich gelöscht werden.
