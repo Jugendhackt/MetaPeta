@@ -95,9 +95,15 @@ canvas {
 }
 
 @media screen and (max-width: 900px) {
-    .btn-delete, .btn-reset {
-        margin-top: 40px;
-        margin-bottom: 40px;
+    .btn {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .nav h1 {
+        padding-left: 1em;
+    }
+    #getfile {
+        width: 18em;
     }
 }
 
