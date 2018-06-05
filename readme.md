@@ -18,10 +18,10 @@ Für weitere Informationen kannst du beispielsweise diesen Link verwenden.
 * [Andreas Pfund](http://andreas-pfund.de/definition/metadaten/metadaten.php)
 
 ### Team-Mitglieder
-* Ben-Jannik,
+* [Ben-Jannik](https://github.com/realeaz),
 * Janik,
-* Henning,
-* Bastian.
+* [Henning](https://github.com/testatur),
+* [Bastian](https://github.com/Bastiro).
 
 ### Danke an 
 * unsere Mentoren: [Matthias](https://github.com/Panzki) und [Ronald](https://github.com/ronald).
