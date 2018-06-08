@@ -84,7 +84,7 @@ p {
     color: white;
     cursor: pointer;
     transform: scale(1.3);
-    margin: 10px 50px;
+    margin: 10px 50px 2em;
 }
 
 canvas {
@@ -107,7 +107,6 @@ canvas {
     }
 }
 
-.result {
-    margin-top: 1em;
-    border: 1px solid white;
+#table {
+    margin-top: 2em;
 }
