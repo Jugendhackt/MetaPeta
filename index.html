@@ -12,8 +12,8 @@
 <body>
 <div class="content">
     <div class="nav">
-        <a href="https://github.com/Jugendhackt/MetaPeta"><img style="position: absolute; top: 0; right: 0; border: 0; height: 7em; width: 7em" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
-        <a href="https://jugendhackt.org/projekte/"><img style="height: 4em; width: 4em; z-index: -1; margin-left: 1em;" src="assets/img/jugendhackt.png"> </a>
+        <a href="https://github.com/Jugendhackt/MetaPeta" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0; height: 7em; width: 7em" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
+        <a href="https://jugendhackt.org/projekte/" target="_blank"><img style="height: 4em; width: 4em; z-index: -1; margin-left: 1em;" src="assets/img/jugendhackt.png"> </a>
         <h1>MetaPeta</h1>
     </div>
     <h2>Was sind eigentlich Meta-Daten und warum sollte man sie entfernen?</h2>
@@ -26,22 +26,24 @@
 
     <div id="app">
         <input id="getfile" class="btn" type="file" accept="image/*" />
-        
-        <a class="btn-delete" title="Bereinigtes Bild herunterladen">
-            Meta-Daten löschen
-        </a>
-        
-        <a class="btn-reset" title="Lädt die Seite neu" onclick="refreshPage()">
-            Auswahl verwerfen
-        </a>
+
+        <div class="btn">
+            <a class="btn-delete" title="Bereinigtes Bild herunterladen">
+                Meta-Daten löschen
+            </a>
+
+            <a class="btn-reset" title="Lädt die Seite neu" onclick="refreshPage()">
+                Auswahl verwerfen
+            </a>
+        </div>
+        <table id="table">
+
+        </table>
         <canvas></canvas>
         <div class="output">
            <!-- <img src="samples/bild.jpg" id="img2" /> -->
             <pre id="allMetaDataSpan"></pre>
         </div>
-        <table id="table">
-
-        </table>
     </div>
 </div>
 
